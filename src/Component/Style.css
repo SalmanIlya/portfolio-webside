@@ -1,0 +1,46 @@
+.images{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(15, 0, 0),rgb(23, 1, 1)) !important;
+    position: absolute;
+    z-index: -10;
+
+}
+.div{
+    position: relative;
+    z-index: 10;
+    color: wheat;
+}
+ul{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.btn{
+    border-radius: 5px !important;
+    background-color: #ffc107 !important;
+    margin-right: 5px !important;
+    border: none !important;
+}
+.btn:hover{
+    border: 1px solid #ffc107 !important;
+    color: #ffc107 !important;
+    transition: 0.5s !important;
+    background-color: transparent !important;
+}
+.navbar-item{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    
+}
+.data-item{
+    margin-top: 10rem !important ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/* Webside page */
+.Webside{
+margin-top: 12rem;
+}

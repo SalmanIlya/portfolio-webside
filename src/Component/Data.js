@@ -1,0 +1,26 @@
+const web=[
+    {
+        id:1,
+        image:"",
+        githubLink:"",
+        webLink:""
+    },
+    {
+        id:1,
+        image:"",
+        githubLink:"",
+        webLink:""
+    },
+    {
+        id:1,
+        image:"",
+        githubLink:"",
+        webLink:""
+    },
+    {
+        id:1,
+        image:"",
+        githubLink:"",
+        webLink:""
+    }
+]
