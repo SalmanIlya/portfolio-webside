@@ -10,9 +10,9 @@ const Websides = () => {
 
 {web.map((item)=>{
 
-return <div class="card shadow m-5 " key={item.id}>
-  <img class="card-img-top w-100 h-75 rounded-2" src={item.image} alt="Card image cap"/>
-  <div class="card-body text-center">
+return <div className="card shadow m-5 " key={item.id}>
+  <img className="card-img-top w-100 h-75 rounded-2" src={item.image} alt="Card image cap"/>
+  <div className="card-body text-center">
 <button className='btn'>visit now</button>
 <button className='btn '>visit gitHub</button>
   </div>
