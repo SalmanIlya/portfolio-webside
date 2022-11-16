@@ -3,7 +3,7 @@ import "./Style.css"
 import web from './Data'
 const Websides = () => {
   return (
-    <div className=' Webside '>
+    <div className=' Webside ' id='web'>
         <h3 className="text-center "><strong>Our Webside </strong><div className='border-3  border-bottom border-warning  h3-div'></div></h3>
 
 <div className='card-parent'>

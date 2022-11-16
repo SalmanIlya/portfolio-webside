@@ -1,7 +1,11 @@
-body{
-    margin: 0;
-    padding: 0;
+nav{
+    /* margin-bottom: 100vh !important; */
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 20;
 }
+/* hero setion  */
 .images{
     height: 70vh;
     width: 100%;

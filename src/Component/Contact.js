@@ -4,12 +4,12 @@ import {AiOutlineMail,AiFillPhone} from "react-icons/ai"
 import "./Style.css"
 const Contact = () => {
   return (
-    <div>
-<h2 className='text-center'><strong>Contact</strong>
+    <div id='contact' >
+<h2 className='text-center '><strong>Contact</strong>
 <div className='h3-div'></div></h2>
 <div className="d-flex flex-row justify-around container">
 
-<div>
+<div className=''>
   <div className='mt-5'>
 <div className='d-flex '> <GoLocation className='h2  rounded-circle p-2 ml-2 text-dark bg-light icons' /><h3 className='-4'>Location:</h3></div>  
 <p className='pragraf-tag'>Peshawar:molah:Satyan H.no:2958 </p>
@@ -25,8 +25,8 @@ const Contact = () => {
 </div>
 <div className='w-25'></div>
 <div>
-<div className='d-flex m-3'>
-  <input type="text" placeholder="name" className='m-1 input1'  />
+<div className='d-flex m-3 mt-5'>
+  <input type="text" placeholder="Name" className='m-1 input1'  />
   <input type="text" placeholder="Email" className='m-1 input1'  />
 </div>
 <input type="text" placeholder="Subject" className=" m-3 input3"/>
