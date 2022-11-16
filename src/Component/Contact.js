@@ -10,27 +10,30 @@ const Contact = () => {
 <div className="d-flex flex-row justify-around container">
 
 <div>
-  <div>
-<div className='d-flex m-2'> <GoLocation className='h2 bg-warning rounded-circle p-1 text-light' /><h3>Location:</h3></div>  
-<p className=''> loremfvsetb</p>
+  <div className='mt-5'>
+<div className='d-flex '> <GoLocation className='h2  rounded-circle p-2 ml-2 text-dark bg-light icons' /><h3 className='-4'>Location:</h3></div>  
+<p className='pragraf-tag'>Peshawar:molah:Satyan H.no:2958 </p>
   </div>
   <div>
-<div className='d-flex m-2'> <AiOutlineMail className='h2 bg-warning rounded-circle p-1 text-light' /><h3>Email:</h3></div>  
-<p className=''> loremfvsetb</p>
+<div className='d-flex'> <AiOutlineMail className='h2  rounded-circle p-2 ml-2 text-dark bg-light icons' /><h3>Email:</h3></div>  
+<p className='pragraf-tag'>salamanilyas101@gmail.com</p>
   </div>
   <div>
-<div className='d-flex m-2'> <AiFillPhone className='h2 bg-warning rounded-circle p-1 text-light' /><h3>Email:</h3></div>  
-<p className=''> loremfvsetb</p>
+<div className='d-flex'> <AiFillPhone className='h2  rounded-circle p-2 ml-2 text-dark bg-light icons' /><h3>Phone:</h3></div>  
+<p className='pragraf-tag'>+92325-5539535</p>
   </div>
 </div>
 <div className='w-25'></div>
 <div>
 <div className='d-flex m-3'>
-  <input type="text" placeholder="name" className='m-1 w-75'/>
-  <input type="text" placeholder="Email" className='m-1 w-75'/>
+  <input type="text" placeholder="name" className='m-1 input1'  />
+  <input type="text" placeholder="Email" className='m-1 input1'  />
 </div>
-<input type="text" placeholder="Subject" className="w-100 m-3"/>
-<textarea rows={10} cols={100} className="m-3"/>
+<input type="text" placeholder="Subject" className=" m-3 input3"/>
+<textarea rows={5} cols={10} className="m-3 p-2" placeholder='Enter Your Massage'/>
+<div className='text-center btn-div my-5'>
+<button className='btn p-3 w-25'>Submit</button>
+</div>
 </div>
 </div>
 
