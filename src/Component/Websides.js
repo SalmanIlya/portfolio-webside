@@ -1,21 +1,24 @@
 import React from 'react'
 import "./Style.css"
+import web from './Data'
 const Websides = () => {
   return (
-    <div className=' Webside'>
-        <h3 className="text-center m-5"><strong>Our Webside </strong></h3>
+    <div className=' Webside '>
+        <h3 className="text-center "><strong>Our Webside </strong><div className='border-3  border-bottom border-warning  h3-div'></div></h3>
 
+<div className='card-parent'>
 
-{
-        <div class="card" >
-  <img class="card-img-top" src="..." alt="Card image cap"/>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+{web.map((item)=>{
+
+return <div class="card shadow m-5 " key={item.id}>
+  <img class="card-img-top w-100 h-75 rounded-2" src={item.image} alt="Card image cap"/>
+  <div class="card-body text-center">
+<button className='btn'>visit now</button>
+<button className='btn '>visit gitHub</button>
   </div>
 </div>
-}
+})
+}</div>
     </div>
 
   )
