@@ -65,3 +65,41 @@ margin-top: 11rem !important;
     border: #ffc107 solid 3px;
     border-radius: 5px;
 }
+/* contact */
+.btn-div{
+    margin-right: 16rem;  
+}
+.pragraf-tag{
+    margin-left: 5rem;
+}
+.icons:hover{
+    background-color: #ffc107 !important;
+    color:white !important;
+    transition: 0.5s;
+
+}
+input{
+    height: 45px;
+    font-size: 23px !important;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 237, 231);
+    outline: none;
+}
+.input1{
+    width: 320px;
+}
+.input3{
+    width: 650px !important;
+}
+textarea{
+    /* height: 45px; */
+    font-size: 23px !important;
+    width: 650px;
+    /* padding: 5px; */
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 237, 231);
+    outline: none;
+}
