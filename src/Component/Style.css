@@ -1,15 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .images{
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgb(15, 0, 0),rgb(23, 1, 1)) !important;
     position: absolute;
-    z-index: -10;
+    z-index: -1;
 
 }
 .div{
     position: relative;
     z-index: 10;
-    color: wheat;
 }
 ul{
     display: flex !important;
@@ -34,7 +37,7 @@ ul{
     
 }
 .data-item{
-    margin-top: 10rem !important ;
+    padding-top: 10rem !important;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -42,5 +45,23 @@ align-items: center;
 }
 /* Webside page */
 .Webside{
-margin-top: 12rem;
+margin-top: 11rem !important;
+}
+.card-parent{
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 18rem;
+    margin: 1rem;
+}
+.h3-div{
+    width: 6rem;
+    margin-left: 39rem;
+    border: #ffc107 solid 3px;
+    border-radius: 5px;
 }
