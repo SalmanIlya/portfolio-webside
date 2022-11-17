@@ -3,6 +3,7 @@
     background-color: #ffc107 !important;
     margin-right: 5px !important;
     border: none !important;
+    /* padding: 1rem; */
 }
 .btn:hover{
     border: 1px solid #ffc107 !important;
