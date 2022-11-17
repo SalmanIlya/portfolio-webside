@@ -1,0 +1,22 @@
+/* Webside page */
+.Webside{
+    margin-top: 11rem !important;
+    }
+    .card-parent{
+        display: flex;
+        flex-wrap: wrap !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card{
+        width: 18rem;
+        margin: 1rem;
+    }
+    .h3-div{
+        width: 6rem;
+        margin-left: 39rem;
+        border: #ffc107 solid 3px;
+        border-radius: 5px;
+    }
