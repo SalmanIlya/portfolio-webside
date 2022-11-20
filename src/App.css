@@ -1,13 +1,13 @@
 .btn{
     border-radius: 5px !important;
-    background-color: #ffc107 !important;
+    background-color:rgb(85, 210, 245) !important;
     margin-right: 5px !important;
     border: none !important;
     /* padding: 1rem; */
 }
 .btn:hover{
-    border: 1px solid #ffc107 !important;
-    color: #ffc107 !important;
+    border: 1px solid rgb(85, 210, 245) !important;
+    color: rgb(85, 210, 245) !important;
     transition: 0.5s !important;
     background-color: transparent !important;
 }

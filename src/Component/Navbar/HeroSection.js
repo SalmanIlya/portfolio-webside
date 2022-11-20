@@ -46,7 +46,7 @@ const HeroSection = () => {
       <NavbarItem 
     contact={contact} about={about}/>
       <div className=''></div>
-    <img src="/image/1.jpg" alt="Snow" className='images w-100' />
+    <img src="/image/4.jpg" alt="Snow" className='images w-100 ' />
     <div className='container data-item  h1 '>
       <h3 >Hi, I,m Salman Ilyas</h3>
    <div>  I,m using {} <span ref={el}></span></div>
